@@ -18,6 +18,15 @@
     <WarningLevel>4</WarningLevel>
     <Externalconsole>true</Externalconsole>
     <PlatformTarget>x86</PlatformTarget>
+    <EnvironmentVariables>
+      <EnvironmentVariables>
+        <Variable name="MONO_PATH" value="$PWD:/Library/Frameworks/Mono.framework/Libraries:/Library/Frameworks/GeckoFx.framework/Versions/Current" />
+        <Variable name="LD_LIBRARY_PATH" value="/Library/Frameworks/Mono.framework/Libraries:$PWD:/Library/Frameworks/XUL.framework/Versions/Current" />
+        <Variable name="PATH" value="/Library/Frameworks/Mono.framework/Commands:$PWD:/usr/bin://opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/sbin:/usr/local/bin" />
+        <Variable name="PKG_CONFIG_PATH" value="/Library/Frameworks/Mono.framework/Libraries/pkgconfig:/usr/lib/pkgconfig:/opt/share/pkgconfig" />
+        <Variable name="MONO_DEBUG" value="explicit-null-checks" />
+      </EnvironmentVariables>
+    </EnvironmentVariables>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>full</DebugType>
@@ -34,10 +43,10 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="Geckofx-Core">
-      <HintPath>..\..\..\..\..\..\..\usr\lib\cli\geckofx-29\Geckofx-Core.dll</HintPath>
+      <HintPath>..\..\geckofx-29.0\Geckofx-Winforms\bin\x86\Debug\Geckofx-Core.dll</HintPath>
     </Reference>
     <Reference Include="Geckofx-Winforms">
-      <HintPath>..\..\..\..\..\..\..\usr\lib\cli\geckofx-29\Geckofx-Winforms.dll</HintPath>
+      <HintPath>..\..\geckofx-29.0\Geckofx-Winforms\bin\x86\Debug\Geckofx-Winforms.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
