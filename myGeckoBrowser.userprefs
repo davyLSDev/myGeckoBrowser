@@ -1,0 +1,30 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="myGeckoBrowser/Program.cs">
+    <Files>
+      <File FileName="myGeckoBrowser/Program.cs" Line="40" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.myGeckoBrowser>
+    <MonoDevelop.Ide.CustomExecutionModes>
+      <Data Name="with GECKO lib" Id="d8fa09b9-253b-4fdc-b108-6274919044bf" ModeId="Mono 3.4.0.1">
+        <CommandData>
+          <Item Key="MonoDevelop.Ide.Execution.CustomArgsCustomizer">
+            <Value Arguments="LD_PRELOAD=/usr/lib/cli/geckofx-29/geckofix.so" ctype="CustomArgsExecutionModeData">
+              <EnvironmentVariables>
+                <Item Key="LD_LIBRARY_PATH" Value="/usr/lib/xulrunner-geckofx-29" />
+              </EnvironmentVariables>
+            </Value>
+          </Item>
+          <Item Key="MonoDevelop.Ide.Execution.MonoExecutionCustomizer">
+            <Value ctype="MonoExecutionParameters" />
+          </Item>
+        </CommandData>
+      </Data>
+    </MonoDevelop.Ide.CustomExecutionModes>
+  </MonoDevelop.Ide.ItemProperties.myGeckoBrowser>
+</Properties>
